@@ -23,18 +23,18 @@ var post10con = "One of my favorite parts of my trip to Qatar was getting henna 
 var post11con = "During my vacation in Doha, I captured this beautiful building on Pearl Island. I loved how the light bounced off the structure, making it look so majestic. The symmetry in the building caught my eye, and I’m really pleased with how this photo turned out.";
 var post12con = "I went to the National Bank Open in Toronto with my boyfriend, and it was so much fun! We got to see some highly ranked players in action and even made it onto the jumbotron. We’re already excited to go again next year for the women’s tournament!";
 
-const post1 = new post("Bakery", "Food", new Date(2025, 9, 5, 12), post1con, 'images/Food/pastries.jpeg');
-const post2 = new post("Ground Beef Bowls", "Food", new Date(2025, 8, 3, 12), post2con, 'images/Food/bowl.jpeg');
-const post3 = new post("Qatar Beach day", "Fun", new Date(2025, 7, 3, 12), post3con, 'images/Fun/beach.JPG');
-const post4 = new post("At-home pilates", "Workouts", new Date(2025, 1, 26, 12), post4con, 'images/Workouts/pilates.jpeg');
-const post5 = new post("Mina District", "Photography", new Date(2025, 1, 19, 12), post5con, 'images/Photography/building.JPG');
-const post6 = new post("Gym Workout", "Workouts", new Date(2025, 1, 12,12), post6con, 'images/Workouts/gym.JPG');
-const post7 = new post("ACOTAR", "Fun", new Date(2025, 1, 5, 12), post7con, 'images/Fun/book.jpg');
-const post8 = new post("Qatar Mall", "Photography", new Date(2025, 0, 29, 12), post8con, 'images/Photography/mall.JPG');
-const post9 = new post("Run", "Workout", new Date(2025, 0, 22, 12), post9con, 'images/Workouts/run.jpeg');
-const post10 = new post("Henna", "Fun", new Date(2025, 0, 15, 12), post10con, 'images/Fun/henna.jpeg');
-const post11 = new post("Pearl Island", "Photpgraphy", new Date(2025, 0, 8, 12), post11con, 'images/Photography/tower.JPG');
-const post12 = new post("National Bank Open", "Fun", new Date(2025, 5, 2, 12), post12con, 'images/Fun/tennis.jpeg');
+const post1 = new post("Bakery", "Food", new Date(2025, 9, 5, 12), post1con, 'pastries.jpeg');
+const post2 = new post("Ground Beef Bowls", "Food", new Date(2025, 8, 3, 12), post2con, 'bowl.jpeg');
+const post3 = new post("Qatar Beach day", "Fun", new Date(2025, 7, 3, 12), post3con, 'beach.JPG');
+const post4 = new post("At-home pilates", "Workouts", new Date(2025, 1, 26, 12), post4con, 'pilates.jpeg');
+const post5 = new post("Mina District", "Photography", new Date(2025, 1, 19, 12), post5con, 'building.JPG');
+const post6 = new post("Gym Workout", "Workouts", new Date(2025, 1, 12,12), post6con, 'gym.JPG');
+const post7 = new post("ACOTAR", "Fun", new Date(2025, 1, 5, 12), post7con, 'book.jpg');
+const post8 = new post("Qatar Mall", "Photography", new Date(2025, 0, 29, 12), post8con, 'mall.JPG');
+const post9 = new post("Run", "Workout", new Date(2025, 0, 22, 12), post9con, 'run.jpeg');
+const post10 = new post("Henna", "Fun", new Date(2025, 0, 15, 12), post10con, 'henna.jpeg');
+const post11 = new post("Pearl Island", "Photpgraphy", new Date(2025, 0, 8, 12), post11con, 'tower.JPG');
+const post12 = new post("National Bank Open", "Fun", new Date(2025, 5, 2, 12), post12con, 'tennis.jpeg');
 
 let array = [post1, post2, post3, post4, post5, post6, post7, post8, post9, post10, post11, post12];
 
