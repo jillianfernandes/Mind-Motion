@@ -41,7 +41,7 @@ let array = [post1, post2, post3, post4, post5, post6, post7, post8, post9, post
 const targetDiv= document.getElementById('posts'); // target div for posts 
 
 function addposts(array){
-    for (let i=0; i<13; i++) {
+    for (let i=0; i<array.length; i++) {
         var postDiv = document.createElement('div'); // new post div
         targetDiv.appendChild(postDiv); //append new post
         postDiv.id = array[i].title; // post id = post title 
