@@ -1,0 +1,148 @@
+:root{
+    --color-brand-primary: #6B9080; 
+    --color-background: #EAF4F4;
+    --color-brand-light: #A4C3B2;
+    --color-brand-lighter: #CCE3DE;
+    --color-brand-contrast: #F6FFF8;
+    --font-body: 'Times New Roman', serif; 
+}
+
+.headlogo {
+    background-color: var(--color-brand-primary);
+    text-align: center;
+    padding: 0em;
+    display: flex;
+    flex: 1;
+    flex-shrink: 1;
+}
+.headlogo > img {
+    flex: 2;
+    max-width: 300px;
+}
+.headlogo > .space{
+    flex: 1;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+    background-color: var(--color-brand-lighter)
+}
+
+.tabs{
+    margin: 0;
+    padding: 0.2em;
+    text-align: center;
+    display: felx;
+    flex: 1;
+    background-color: var(--color-brand-light);
+
+}
+
+.tabs > nav> ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 1.5em 0 1.5em;
+    vertical-align: middle;
+}
+
+.tabs nav ul li a, 
+.tabs nav ul li a:active,
+.tabs nav ul li a:hover,
+.tabs nav ul li a:visited {
+    color: var(--color-brand-contrast);
+    text-decoration: none; 
+    font-weight: 500;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+footer {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: var(--color-brand-light);
+    color: var(--color-brand-contrast)
+}
+.footerlogo {
+    text-align: center;
+    margin: 0 1.5em 0 1.5em;
+}
+.footerlogo > img {
+    width: 300px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer > .contacts > nav > ul > li {
+    list-style: none;
+    margin: 1.5em 0 1.5em 0;
+}
+
+.contacts nav ul li a, 
+.contacts nav ul li a:active,
+.contacts nav ul li a:hover,
+.contacts nav ul li a:visited {
+    color: var(--color-brand-contrast);
+
+}
+
+
+ 
+main {
+    text-align: center;
+    
+}
+.description > img {
+    max-width: 200px;
+    margin: 3em;
+    border-radius: 1em;
+}
+
+#me {
+    margin: 3em;
+}
+
+
+@media (min-width:650px) { 
+    footer {
+        display: flex;
+        flex-shrink: 1;
+    }
+    footer > .contacts {
+        flex: 2; 
+        
+    }
+    footer > .footerlogo {
+        flex: 2;
+        
+    }
+    footer > .space {
+        flex: 1;
+    }
+    .headlogo {
+        flex-shrink: 1;
+    }
+    .description{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    main > .description > img {
+        flex: 1;
+        justify-content: center;
+    }
+    #me {
+        flex: 1;
+    }
+}
+
+@media (max-width:650px){
+    footer > .contacts{
+        text-align: center;
+    }
+
+}
